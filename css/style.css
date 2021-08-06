@@ -264,23 +264,27 @@ section #box_menu > .wrap > div.box3 > .title > h2{padding-bottom: 40px;}
 section #box_menu > .wrap > div.box3 > p{font-size: 24px;}
 section #box_menu > .wrap > div.box3 > .search_box{
     position: absolute;
-    bottom: 20px;
+    width: 360px;
+    height: 40px;
     left: 20px;
+    bottom: 20px;
+    border:2px solid #004ea1;
+    display: flex;
 }
 section #box_menu > .wrap > div.box3 > .search_box > input{
-    float: left;
-    height: 40px;
+    width: calc(100% - 120px);
+    height: 100%;
+    border: none;
+    padding: 0 10px;
 }
 section #box_menu > .wrap > div.box3 > .search_box > input:first-child::placeholder{font-size: 16px;}
 section #box_menu > .wrap > div.box3 > .search_box > input:first-child{
     width: 240px;
     padding: 10px;
     background-color: #fff;
-    border: 2px solid #004EA1;
-    border-right: none;
 }
 section #box_menu > .wrap > div.box3 > .search_box > input:last-child{
-    width: 122px;
+    width: 120px;
     font-size: 16px;
     border: none;
     background-color: #004EA1;
